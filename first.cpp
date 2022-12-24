@@ -57,10 +57,7 @@ int32_t main()
 #endif
     ios::sync_with_stdio(false);
     cin.tie(0);
-    int Testt;
-    cin>>Testt;
-    for(int iTest=1;iTest<=Testt;iTest++){
-        solve();
-    }
+    
+    solve();
     return 0;
 }
