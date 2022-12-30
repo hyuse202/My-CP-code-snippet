@@ -3,7 +3,7 @@ using namespace std;
 
 using ll = long long;
 double eps = 1e-12;
-#define nl               '\n'
+#define endl             '\n'
 #define int              long long
 #define pii              pair<int,int>
 #define fi               first
@@ -43,7 +43,7 @@ void _print(T t, V... v) {__print(t); if (sizeof...(v)) cerr << ", "; _print(v..
 #define dbg(x...)
 #endif
 // <<===== End of template, code goes here =====>> //
-const int mxN = 2e5;
+const int mxN = 2e5 + 7;
 
 void solve(){
     
